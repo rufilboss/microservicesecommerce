@@ -14,13 +14,15 @@ Clone this repository code and follow below steps:
 
 Move into the backend folder through terminal and run following commands;
 
-`python3 -m venv env` (for windows --> `python -m venv env`)
+```sh
+python3 -m venv env (for windows --> `python -m venv env`)
 
-`source env/bin/activate` (for windows --> `env\scripts\activate`)
+source env/bin/activate (for windows --> `env\scripts\activate`)
 
-`pip install -r requirements.txt` (same for both)
+pip install -r requirements.txt (same for both)
 
-`python manage.py runserver` (same for both)
+python manage.py runserver (same for both)
+```
 
 ### Frontend
 
@@ -29,9 +31,9 @@ Move into the backend folder through terminal and run following commands;
 Move into the frontend folder through terminal and run follwing commands
 
 ```sh
-`npm i`
+npm i
 
-`npm start`
+npm start
 ```
 
 ## All set ! Happy coding :)
