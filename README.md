@@ -6,7 +6,7 @@ A FullStack Ecommerce App built with Django and React.
 
 Clone this repository code and follow below steps:
 
-* (NOTE: your need to mention your own stripe secret api key and publishable key in django to run the project)
+* (NOTE: your need to setup your own stripe secret api key and publishable key in django to be able to use payment)
 
 ### Backend
 
