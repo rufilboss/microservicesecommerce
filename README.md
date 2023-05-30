@@ -26,7 +26,7 @@ Clone this repository code and follow below steps:
 
 * (for both linux and windows)
 
-2) Move into the frontend folder through terminal and run follwing commands
+1) Move into the frontend folder through terminal and run follwing commands
 
 `npm i`
 
