@@ -1,4 +1,4 @@
-# FullStack_Ecommerce_App
+# FullStack Ecommerce App
 
 A FullStack Ecommerce App built with Django and React.
 
