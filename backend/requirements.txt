@@ -24,3 +24,4 @@ sqlparse==0.4.1
 stripe==2.60.0
 toml==0.10.2
 urllib3==1.26.6
+psycopg2==2.7.5
