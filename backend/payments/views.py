@@ -34,7 +34,7 @@ class TestStripeImplementation(APIView):
             amount=120,
             currency='inr',
             payment_method_types=['card'],
-            receipt_email='yash@gmail.com'
+            receipt_email='rufilboy@gmail.com'
         )
 
         return Response(data=test_payment_process, status=status.HTTP_200_OK)
