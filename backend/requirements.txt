@@ -25,3 +25,5 @@ stripe==2.60.0
 toml==0.10.2
 urllib3==1.26.6
 psycopg2
+# psycopg2-binary==2.9.6
+

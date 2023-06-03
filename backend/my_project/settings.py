@@ -28,8 +28,7 @@ SECRET_KEY = 'django-insecure-*7!!kc@bmtx8ngui6lr@xmifmcwm6y%hnbe)rdei(b!ds8t)uq
 # DEBUG = True
 DEBUG = False
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1']
 
 # Application definition
 
@@ -91,14 +90,25 @@ WSGI_APPLICATION = 'my_project.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'test',
+#         'USER': 'postgres',
+#         'PASSWORD': 'test123',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
-        'HOST': 'db',  # This is the name of the PostgreSQL service in my Docker Compose file
-        'PORT': '5234',  # This will be the port mapped to the PostgreSQL service in the Docker Compose file
+        'HOST': 'localhost',  # This is the name of the PostgreSQL service in my Docker Compose file
+        'PORT': '5432',  # This will be the port mapped to the PostgreSQL service in the Docker Compose file
     }
 }
 

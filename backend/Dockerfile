@@ -14,9 +14,12 @@ COPY requirements.txt .
 # Installation of Python dependencies
 RUN pip3 install -r requirements.txt \
     && pip3 install Pillow
-    
+
 # Copy the Django project code to the container
 COPY . .
+
+#MIGRATE
+# RUN python3 manage.py migrate
 
 # Expose the port that Django runs on
 EXPOSE 8000
